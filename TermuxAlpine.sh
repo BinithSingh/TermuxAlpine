@@ -42,7 +42,10 @@ checksysinfo() {
 		x86)
 			SETARCH=x86
 			;;
-		x86_64)
+		i686)
+                        SETARCH=i686
+                        ;;
+                x86_64)
 			SETARCH=x86_64
 			;;
 		*)
